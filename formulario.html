@@ -1,0 +1,42 @@
+<!DOCKTYPE>
+<html>
+<head>
+<title>Aula 06 - Formulário</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<form method="Post" action="teste.php">
+<fieldset><legend> Cadastro de Clientes </legend>
+<!-- placeholder - dica para o usuario, 
+fieldset - agrupamento de dados, 
+legend - legenda, 
+input type - para criar a caixa de entrada, 
+maxlength - para definir a quantidade de caracteres, 
+size - para definir o tamanho da caixa do imput, 
+label for -- para criar um rotulo ou etiqueta, serve para clicar no titulo e habilitar o cursos dentro da caixa de input
+radio - para seleção simples uma coisa ou a outra 
+checkbox - para seleção multiplica, uma coisa e a outra, checked 
+-->
+
+<p><label for"n"> Nome:<input id"n" size=40 maxlength=50 placeholder="Nome completo" type="text" /></label><p>
+<p><label for"e"> Endereço: <input id"e" size=50 maxlength=60 placeholder="Endereço completo" type="text" /><p>
+<p><label for"e"> Email: <input id"m" name="email" size=50 maxlength=60 placeholder="Digite seu email" type="email" /><p>
+<p><label for"s"> Senha: <input type="password" id"s" size=20 maxlength=10 placeholder="10 digitos"/><p>
+<p><label for"c"> Celular: <input id"c" size=20 maxlength=11 /><p>
+<p><label for"d"> Data de Nascimento: <input type="date"><p>
+<p><label for"h"> Sexo: <input type="radio" name="sexo" id="h"/> Masculino</label>
+<label for"m"><input type="radio" name="sexo" id="m" />Feminino</label></p>
+<fieldset><legend> Area de interesse</legend>
+<p><label for"j"><input type="checkbox" id"j"/> Esporte </p>
+<p><label for"k"><input type="checkbox" id"k"/> Lazer </p>
+<p><label for"l"><input type="checkbox" id"l"/> Informatica </p>
+<p><label for"v"><input type="checkbox" id"v"/> Dança </p>
+<p><label for"b"><input type="checkbox" id"b"/> Outros </p>
+
+<input type="submit" name="envie" value="Envie" />
+
+
+
+</fieldset>
+</form>
+</html>
