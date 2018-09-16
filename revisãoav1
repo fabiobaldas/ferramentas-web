@@ -1,0 +1,50 @@
+<!DOCKTYPE>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<title> Revisão AV1 </title>
+<body bgcolor="#66FF99">
+<h1>NOTA DAS PROVAS</h1>
+<table border="4">
+<tr>
+<th>Nome do aluno </th>
+<th>Nota AV1 </th>
+<th>Nota AV2 </th>
+<th>Nota AV3 </th>
+<th>Media </th>
+
+<tr>
+
+<th>Fabio</th>
+<th>10 </th>  
+<th>10 </th> 
+<th>10 </th> 
+<th>10 </th> 
+
+</table>
+<br><br>
+
+<hr color="red" size=4 width=60%>
+<center><img src="rs.png" style="border: #FFFF00 solid 6px"<br><br>
+<a href="https://www.unilasalle.edu.br/rj/">Unilasalle</a></center><br>
+<hr color="red" size=4 width=60%>
+
+<form method="post" action="teste.php">
+<fieldset><legend>CADASTRO</legend>
+<fieldset><legend>Endereço do Usuario</legend>
+<p><label for="a">Nome: <input type="text" id="nome" placeholder="Nome Completo">
+<p><label for="b">Logradouro: <input type="text" id="logradouro" placeholder="Avenida, Rua, Travessa">
+<p><label for="c">Numero: <input type="text" size=7 id="numero">
+<p><label for="d">Estado:
+<select name="Estado">
+<option value="rj">RJ</option>
+<option value="sp">SP</option>
+<option value="mg">MG</option>
+
+
+
+
+
+</body>
+</html>
