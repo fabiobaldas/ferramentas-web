@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<title>Prova av1 </title>
+<body bgcolor="#AABB00">
+<h1><center>Prova Av1 </h1></center></h1>
+<hr width=70% color="yellow" size=4>
+<table border=2>
+<tr>
+<th>Nome</th>
+<th>Matricula</th>
+<th>Email</th>
+<th>Telefone</th>
+</tr>
+<tr>
+<td>Thereza</td>
+<td>809080</td>
+<td>xxx@gmail.com</td>
+<td>2711-1121</td>
+</table>
+<hr width=70% color="yellow" size =4>
+<marquee scrollmount=50> Boa Sorte! </marquee>
+<center><img src="sol.jpg" border=4 style="border-color:#FF00FF" /></center>
+<hr width=70% color="yello" size=4>
+<form method="post" action="prova.php">
+<fieldset><legend>Prova</legend>
+<p><label for="a">Nome <input id="a" type="text" placeholder="Nome completo" />
+<p><label for="b">Senha <input id="b" type="password" placeholder="8 Digitos" maxlenght="8" />
+<p><label for="c">Data Nasc <input id="c" type="date" />
+</fieldset>
+</form>
+</body>
+</html>
