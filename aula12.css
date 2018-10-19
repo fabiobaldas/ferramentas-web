@@ -1,0 +1,41 @@
+form{
+	width:500px;
+	margin:auto;
+	}
+	
+legend{
+	color:#1979FF;
+	font-size:13pt;
+	font-family:verdana;
+	font-weight:bold;
+}
+
+fieldset{
+	border-color:#8A2BE2;
+	margin:20px;
+
+}
+
+#sexo{
+	width:240px;
+	border-color:#FF00FF;
+	background-color:#999999;
+}
+
+#endereco{
+	background:url("lula.jpg") no-repeat;
+}
+
+#usuario{
+	background:url("rs1.jpg") no-repeat;
+}
+
+input:hover{
+	background-color:#cecece;
+}
+
+input,textarea{
+	font-family:"verdana";
+	font-size:13pt;
+	background-color:rgba(255,255,255,0,6);
+}
