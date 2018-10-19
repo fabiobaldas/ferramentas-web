@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aula 12</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="aula12.css">
+</head>
+<body>
+<form method="post" action="mailto:fabio.baldas@gmail.com"/>
+<fieldset id="usuario"><legend>Identificação do Usuario</legend>
+<p><label for="a"> Nome:<input id"a" size=40 maxlength=50 placeholder="Nome completo" type="text"/></label><p>
+<p><label for="b"> Senha:<input id"b" placeholder="6 digitos" type="password"/></label><p>
+<p><label for="c"> E_mail:<input id"c" placeholder="E_mail" type="text"/></label><p>
+<fieldset id="sexo"><legend>Sexo:</legend>
+<p><label for="d"> Masculino <input id="e" name="sexo" type="radio"/></label><p>
+<p><label for="e"> Feminino <input id="e" name="sexo" type="radio"/></label><p>
+</fieldset>
+<p> <label for="f"><font color="red"> Data de Nascimento <input type="date"/></label><p></font>
+</fieldset>
+<fieldset id="endereco"><legend>Endereço de Casa</legend>
+<p><label for="g">Logradouro<input id="g" type="text" size=40 placeholder="Rua, Avenida e/ou Travessa"/></label><p>
+<p><label for="h">Numero<input id="h" type="text" type=""/></label><p>
+<p><label for="j">Cidade<input id="j" type="text"/></label><p>
+<p><label for="h">Estado:
+<select name="Estado">
+<option value="rj">RJ</option>
+<option value="sp">SP</option>
+<option value="mg">MG</option>
+<option value="pr">PR</option>
+</select>
+</fieldset>
+<fieldset><legend>Mensagem do Usuario</legend>
+<p>Grau de Risco: Min<input type="range" min=0 max=20 /> Max<p>
+<p>Mensagem</p>
+<textarea rows=10 cols=50></textarea>
+</fieldset>
+
+
+
+
+</body>
+</html>
