@@ -1,6 +1,11 @@
 body{
-	background:linear-gradient(yellow, black, white);
-	animation-name:body;
-	animation-duration:15s;
-	animation-iteration-count:2s;
+	background:linear-gradient(yellow, white, blue);
+	animation-name:body; /*Nome da Animação */
+	animation-duration:15s; /*Tempo de Duração */
+	animation-iteration-count:2 /*Quantidade de Vezes a ser Executada */
+} 
+@Keyframes body{/*Para Fazer Animação Utilizamos o @keyframes */
+	0%{background:url("image.gif")}
+	50%{background:url("image2.gif")}
+	100%{background:url("image3.gif")}
 }
