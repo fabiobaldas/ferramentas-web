@@ -1,0 +1,6 @@
+body{
+	background:linear-gradient(yellow, black, white);
+	animation-name:body;
+	animation-duration:15s;
+	animation-iteration-count:2s;
+}
