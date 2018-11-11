@@ -1,0 +1,25 @@
+#container{
+	width:950px;
+	margin:0px auto;
+	}
+
+#left{
+	float:left;
+	width:230px;
+	height:255px;
+	background-image:url("dog1.jpg");
+	
+}
+
+#content{
+	float:right;
+	width:230px;
+	height:255px;
+	background-image:url("dog1.jpg");
+}
+
+#center{
+	float:center;
+	font-size:30px;
+	
+}
